@@ -29,10 +29,10 @@ class Welcome extends CI_Controller {
 			 $this->load->library('session');
 
 	 }
-	public function index()
+	public function index($data="login/auth")
 	{
   $this->load->view('header');
 		$this->load->view('templates/navbar');
-		$this->load->view("login/auth");
+		$this->load->view($data);
 	}
 }
