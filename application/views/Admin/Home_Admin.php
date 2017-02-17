@@ -14,7 +14,7 @@ a:active{
 <div class="container-fluid">
 
   <div class="row">
-    <div class="col-md-12 well">
+    <div class="col-md-12">
       <div class="col">
         <div class="col-md-3">
 

@@ -25,7 +25,6 @@ class Welcome extends CI_Controller {
 			 parent::__construct();
 			 $this->load->helper('assets');
 			 $this->load->model('station');
-
 			 $this->load->library('session');
 
 	 }
