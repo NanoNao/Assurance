@@ -1,5 +1,5 @@
 <?php
-
+/*
 
 
 Class Auth extends CI_Controller {
@@ -64,7 +64,7 @@ Class Auth extends CI_Controller {
         if ($this->form_validation->run() == FALSE) {
             if(isset($this->session->userdata['logged_in'])){
                 redirect('back');
-                
+
             }else{
                 $this->load->view('login/connect');
             }
@@ -107,6 +107,6 @@ Class Auth extends CI_Controller {
         $this->load->view('login/connect', $data);
     }
 
-}
+}*/
 
 ?>
